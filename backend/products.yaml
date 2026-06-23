@@ -1,0 +1,287 @@
+products:
+
+  - id: fixed_deposits
+    name: Fixed Deposits
+    status: LIVE
+
+    description: >
+      Multi-bank fixed deposit infrastructure delivered through
+      a single integration.
+
+    category: Deposits
+
+    target_industries:
+      - Fintech
+      - WealthTech
+      - NeoBank
+      - Broking
+      - SuperApp
+      - Consumer Finance
+      - Financial Advisor
+
+    target_business_models:
+      - B2C
+      - B2B2C
+
+    target_personas:
+      - CEO
+      - CTO
+      - Head of Product
+      - VP Product
+      - Growth Head
+
+    trigger_keywords:
+      - savings
+      - deposits
+      - investment
+      - wealth
+      - fixed deposit
+      - banking
+      - financial products
+
+    value_proposition:
+      - Launch FD products in weeks
+      - Multi-bank FD aggregation
+      - White-label SDK
+      - KYC pre-integrated
+      - Revenue diversification
+
+    fit_score_weight: 100
+
+  - id: recurring_deposits
+    name: Recurring Deposits
+    status: LIVE
+
+    description: >
+      Automated monthly savings products through a single integration.
+
+    category: Deposits
+
+    target_industries:
+      - Fintech
+      - NeoBank
+      - Consumer Finance
+      - SuperApp
+
+    target_business_models:
+      - B2C
+      - B2B2C
+
+    target_personas:
+      - Head of Product
+      - CTO
+      - Growth Head
+
+    trigger_keywords:
+      - savings
+      - recurring
+      - monthly deposits
+      - financial planning
+
+    value_proposition:
+      - Increase customer retention
+      - Encourage recurring investments
+      - Higher user engagement
+
+    fit_score_weight: 85
+
+  - id: bonds
+    name: Bonds Marketplace
+    status: LIVE
+
+    description: >
+      Government and corporate bond distribution infrastructure.
+
+    category: Investments
+
+    target_industries:
+      - WealthTech
+      - Broking
+      - Investment Platform
+      - Fintech
+
+    target_business_models:
+      - B2C
+      - B2B2C
+
+    target_personas:
+      - CEO
+      - Head of Wealth
+      - Head of Investments
+      - Product Manager
+
+    trigger_keywords:
+      - bonds
+      - debt products
+      - investments
+      - wealth management
+      - treasury
+
+    value_proposition:
+      - New investment category
+      - Debt product distribution
+      - Higher customer AUM
+
+    fit_score_weight: 95
+
+  - id: lamf
+    name: Loan Against Mutual Funds
+    status: BETA
+
+    description: >
+      Instant liquidity against mutual fund holdings without redemption.
+
+    category: Credit
+
+    target_industries:
+      - WealthTech
+      - Broking
+      - Investment Platform
+
+    target_business_models:
+      - B2C
+      - B2B2C
+
+    target_personas:
+      - Head of Lending
+      - Head of Product
+      - CTO
+
+    trigger_keywords:
+      - mutual funds
+      - liquidity
+      - lending
+      - secured loans
+      - portfolio finance
+
+    value_proposition:
+      - Monetize existing investors
+      - New credit line
+      - Better user retention
+
+    fit_score_weight: 90
+
+  - id: personal_loans
+    name: Personal Loans
+    status: COMING_SOON
+
+    description: >
+      Pre-approved personal loan infrastructure.
+
+    category: Credit
+
+    target_industries:
+      - Fintech
+      - Lending
+      - Consumer Finance
+      - NeoBank
+      - SuperApp
+
+    target_business_models:
+      - B2C
+
+    target_personas:
+      - Head of Lending
+      - CEO
+      - Product Head
+
+    trigger_keywords:
+      - loans
+      - credit
+      - lending
+      - personal finance
+      - consumer finance
+
+    value_proposition:
+      - Additional revenue stream
+      - Credit product expansion
+      - Faster customer acquisition
+
+    fit_score_weight: 95
+
+platform_capabilities:
+
+  - id: white_label_sdk
+
+    name: White Label SDK
+
+    target_industries:
+      - Fintech
+      - WealthTech
+      - NeoBank
+      - SuperApp
+      - Broking
+
+    personas:
+      - CTO
+      - VP Engineering
+      - Engineering Manager
+
+  - id: kyc_stack
+
+    name: Integrated KYC Stack
+
+    target_industries:
+      - Fintech
+      - Lending
+      - Insurance
+      - WealthTech
+
+    personas:
+      - Compliance Head
+      - CTO
+      - Product Manager
+
+  - id: assisted_journey
+
+    name: Assisted Sales Journey
+
+    target_industries:
+      - DSA
+      - NBFC
+      - Financial Advisor
+      - Lending
+
+    personas:
+      - Sales Head
+      - Operations Head
+      - Branch Manager
+
+  - id: omni_channel
+
+    name: Omni Channel Distribution
+
+    target_industries:
+      - SuperApp
+      - Consumer Finance
+      - NeoBank
+
+    personas:
+      - Product Head
+      - CTO
+
+industry_aliases:
+
+  upi_apps:
+    - Payments
+    - Fintech
+    - NeoBank
+
+  wealthtech:
+    - WealthTech
+    - Investment Platform
+    - Broking
+
+  bondtech:
+    - WealthTech
+    - Investments
+    - Fixed Income
+
+  dsa:
+    - Financial Advisor
+    - Lending
+    - Loan Distribution
+
+  nbfc:
+    - Lending
+    - Consumer Finance

@@ -1,0 +1,25 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+frontend/dist/
+backend/dist/
+
+# secrets & local config
+.env
+.env.local
+*.env
+!.env.example
+backend/data/api-keys.json
+
+# local data (sqlite + incoming files)
+backend/data/*.db
+backend/data/*.db-*
+backend/data/incoming/*
+!backend/data/incoming/README.md
+
+# logs & os cruft
+*.log
+npm-debug.log*
+.DS_Store

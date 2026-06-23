@@ -1,0 +1,10 @@
+/* Rael-inspired type system
+   - Display: Fraunces       (headings, brand) — a warm serif that "speaks to you"
+   - Body:    Inter          (workspace chrome / system UI)
+   - Data:    JetBrains Mono (numerics, eyebrows, domains, scores) */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
